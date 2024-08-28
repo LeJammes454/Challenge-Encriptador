@@ -42,19 +42,18 @@ function encriptarMensaje() {
 
         if (regExp.test(mensaje)) {
             const reemplazos = {
-                e: "echo",
-                i: "india",
-                a: "alpha",
-                o: "oscar",
-                u: "uniform"
+                e: "enter",
+                i: "imes",
+                a: "ai",
+                o: "ober",
+                u: "ufat"
             };
             let mensajeEncriptado = mensaje.replace(/[eioua]/g, match => reemplazos[match]);
             textoSalida.innerHTML = mensajeEncriptado;
             textoSalida.value = mensajeEncriptado;
             habilitarCopiado();
             actualizarPagina();
-        }
-         else {
+        } else {
             myAlert("Por favor escribe un texto válido, solo letras minúsculas y espacios.");
             focusTextArea();
         }
@@ -68,13 +67,13 @@ function desencriptarMensaje() {
     let mensaje = textoEntrada.value.trim();
     if (mensaje) {
         const reemplazos = {
-            echo: "e",
-            india: "i",
-            alpha: "a",
-            oscar: "o",
-            uniform: "u"
+            enter: "e",
+            imes: "i",
+            ai: "a",
+            ober: "o",
+            ufat: "u"
         };
-        let mensajeDesencriptado = mensaje.replace(/echo|india|alpha|oscar|uniform/g, match => reemplazos[match]);
+        let mensajeDesencriptado = mensaje.replace(/enter|imes|ai|ober|ufat/g, match => reemplazos[match]);
         textoSalida.innerHTML = mensajeDesencriptado;
         textoSalida.value = mensajeDesencriptado;
         habilitarCopiado();
