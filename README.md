@@ -1,3 +1,4 @@
+
 # 🔐 Encriptador de Texto
 
 Esta aplicación web ha sido diseñada para transformar texto de manera sencilla y rápida, permitiendo encriptarlo y desencriptarlo utilizando un conjunto de reglas específicas. Ideal para quienes desean proteger la información o simplemente jugar con mensajes cifrados.
@@ -13,7 +14,7 @@ Para que el encriptador funcione correctamente, es necesario seguir estas condic
 - 🔤 **Solo se permiten letras minúsculas.**
 - ✖️ **No se aceptan acentos ni caracteres especiales.**
 - 🔄 **El proceso de encriptación es reversible, es decir, puedes encriptar y desencriptar utilizando las mismas reglas.** 
-  - Ejemplo: "gato" se convierte en "gaechooscar", y "gaechooscar" vuelve a ser "gato".
+  - Ejemplo: "gato" se convierte en "gaitober", y "gaitober" vuelve a ser "gato".
 - 📝 **Debes ingresar el texto en los campos adecuados y seleccionar la opción de encriptar o desencriptar.**
 - 💻 **El resultado se mostrará automáticamente en la pantalla.**
 - 📋 **Un botón de copiado facilita la transferencia del texto encriptado o desencriptado.**
@@ -24,11 +25,11 @@ Para que el encriptador funcione correctamente, es necesario seguir estas condic
 
 | Letra | Código |
 | :---: | :----: |
-| **a** | alpha  |
-| **e** | echo   |
-| **i** | india  |
-| **o** | oscar  |
-| **u** | uniform|
+| **a** | ai     |
+| **e** | enter  |
+| **i** | imes   |
+| **o** | ober   |
+| **u** | ufat   |
 
 _Recuerda que estos valores funcionan tanto para encriptar como para desencriptar._
 
